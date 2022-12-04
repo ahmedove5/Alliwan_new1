@@ -1,0 +1,42 @@
+.my-nav{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    }
+    
+    .carousel-item {
+      height: 100vh;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    
+    body{
+      background-color: rgb(253, 247, 247);
+    }
+
+    .get-started-btn {
+        color: rgb(15, 1, 1);
+        border-radius: 4px;
+        padding: 7px 30px 8px 25px;
+        white-space: nowrap;
+        transition: 0.3s;
+        font-size: 20px;
+        display: inline-block;
+        border: 2px solid #ffc451;
+        background: #ffbb38;
+        font-family:   "sans-serif";
+        text-align: center;
+        text-decoration:none;
+        direction: rtl;
+        
+        
+      }
+      
+      .get-started-btn:hover {
+        background: #ffbb38;
+        color: #ffffff;
+        text-decoration:none
+      }
