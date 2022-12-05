@@ -1,3 +1,9 @@
+*background-image{
+    width: 100%;
+
+}
+
+
 .my-nav{
     position: absolute;
     z-index: 10;
@@ -6,7 +12,7 @@
     
     .carousel-item {
       height: 100vh;
-      background: no-repeat center center scroll;
+      background: no-repeat center center scroll ;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -40,3 +46,21 @@
         color: #ffffff;
         text-decoration:none
       }
+
+      @media (max-width: 768px) {
+        .my-nav navbar navbar-light navbar-expand-lg {
+          min-height: 350px;
+        }}
+
+
+        @media  screen and (max-width: 480px) {
+            background-image {
+              width: 100% ;
+              height: auto;
+            }
+          }
+
+        .carousel-item active{
+            max-width: 100%;
+            height: auto;
+        }
