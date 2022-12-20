@@ -8,6 +8,7 @@
     position: absolute;
     z-index: 10;
     width: 100%;
+    
     }
     
     .carousel-item {
@@ -76,9 +77,9 @@
           position: absolute;
           top: 50%;
           transform: translatey(-50%);
-          text-align: center;
+          /* text-align: center; */
           color: black;
-          padding: 40px;
+          
           font-family: 'Merriweather', serif;
         }
         
@@ -144,7 +145,7 @@
             box-shadow: 0 0 20px 8px #d0d0d0;
             
           }
-          .content {
+          /* .content {
             position: absolute;
             top: 50%;
             transform: translatey(-50%);
@@ -152,7 +153,7 @@
             color: black;
             padding: 40px;
             font-family: 'Merriweather', serif;
-          }
+          } */
           
           /* h1 {
             font-weight: 200;
@@ -377,4 +378,36 @@ html{
     transform: scale(0.95);
    }
 
+
+
+   @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }}
+
+    /* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+
+  padding: 16px;
+  text-align: center;
+
+}
    
