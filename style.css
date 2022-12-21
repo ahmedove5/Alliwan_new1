@@ -346,8 +346,8 @@ html{
    .cta span {
     position: relative;
     font-family: "Ubuntu", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 500;
     letter-spacing: 0.05em;
     color: #234567;
    }
@@ -381,10 +381,10 @@ html{
 
 
    @media screen and (max-width: 600px) {
-    .column {
+    .cta {
       width: 100%;
       display: block;
-      margin-bottom: 20px;
+      margin-bottom: -60px;
     }}
 
     /* Float four columns side by side */
@@ -406,8 +406,17 @@ html{
 
 .content {
 
-  padding: 16px;
+  /* padding: px; */
   text-align: center;
 
 }
    
+
+
+/* @media only screen and (max-width: 620px) {
+
+  .container2 .content { 
+     font-size: 10vh; 
+  }
+
+} */
