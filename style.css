@@ -423,7 +423,7 @@ html{
 } */
 
 .navbar-nav{
-  padding-left:275px ;
+  padding-left:275px !important ;
 }
 
 
