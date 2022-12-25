@@ -76,6 +76,7 @@
         .content {
           position: absolute;
           top: 50%;
+          
           transform: translatey(-50%);
           /* text-align: center; */
           color: black;
@@ -420,3 +421,30 @@ html{
   }
 
 } */
+
+.navbar-nav{
+  padding-left:275px ;
+}
+
+
+@media screen and (max-width: 750px) {
+  #contentt 
+    h3 {font-size: 3vh !important; margin-top: -70% !important ;} 
+    
+}
+
+@media screen and (max-width: 750px) {
+  #contentt 
+    h2 {font-size: 15px !important;  ;} 
+    
+}
+@media screen and (max-width: 750px) {
+  #contenttt 
+    h1 {font-size: 3vh !important; margin-top: -70% !important ;} 
+  
+}
+@media screen and (max-width: 750px) {
+  #contenttt 
+    p {font-size: 10px !important;  ;} 
+    
+}
