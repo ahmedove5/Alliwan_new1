@@ -38,6 +38,9 @@
         text-align: center;
         text-decoration:none;
         direction: rtl;
+        margin-left: 116px !important;
+        /* margin-top: 0vw !important; */
+        align-items: center !important;
         
         
       }
@@ -446,5 +449,11 @@ html{
 @media screen and (max-width: 750px) {
   #contenttt 
     p {font-size: 10px !important;  ;} 
+    
+}
+
+@media screen and (max-width: 750px) {
+  #ordernow 
+     {margin-top: -11vw !important;  ;} 
     
 }
