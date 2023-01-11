@@ -38,7 +38,7 @@
         text-align: center;
         text-decoration:none;
         direction: rtl;
-        margin-left: 116px !important;
+        margin-left: 450px !important;
         /* margin-top: 0vw !important; */
         align-items: center !important;
         
@@ -452,8 +452,9 @@ html{
     
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
   #ordernow 
-     {margin-top: -11vw !important;  ;} 
+     {margin-top: -11vw !important; 
+      margin-left: -300px ;} 
     
 }
