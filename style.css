@@ -458,14 +458,22 @@ html{
       margin-left: -300px ;} 
     
 }
-/* @media screen and (max-width: 900px) {
-  #img11
-     {height: 70% !important;} 
-    
-}
 
 @media screen and (max-width: 900px) {
   #coursall
      {height: 50% !important ;} 
     
-} */
+}
+
+
+@media screen and (max-width: 900px) {
+  #img11
+     {height: 50% !important;} 
+    
+}
+
+@media screen and (max-width: 900px) {
+  #d
+     {margin-top: -386px !important;} 
+    
+}
