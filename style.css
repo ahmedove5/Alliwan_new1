@@ -466,14 +466,14 @@ html{
 }
 
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   #img11
      {height: 50% !important;} 
     
-}
+} */
 
 @media screen and (max-width: 900px) {
   #d
-     {margin-top: -300px !important;} 
+     {margin-top: 0px !important;} 
     
 }
