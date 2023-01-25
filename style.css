@@ -60,7 +60,8 @@
 
 
         @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
-
+        .container {
+          margin-top: -15px;}
      
         .container1  {
           /* position: absolute; */
@@ -127,11 +128,11 @@
           transition: 1s;
         }
         
-        .container1:hover .flap::after {
+        .container1 .flap::after {
           transform: translatex(300px);
         }
         
-        .container1:hover .flap::before{
+        .container1 .flap::before{
           transform: translatex(-300px);
         }
 
@@ -199,13 +200,20 @@
             transition: 1s;
           }
           
-          .container2:hover .flap::after {
+          .container2 .flap::after {
             transform: translatex(300px);
           }
           
-          .container2:hover .flap::before{
+          .container2 .flap::before{
             transform: translatex(-300px);
         }
+        /* .container2:hover .flap::after {
+          transform: translatex(300px);
+        }
+        
+        .container2:hover .flap::before{
+          transform: translatex(-300px);
+      } */
         .center{
             margin: 0;
             position: absolute;
@@ -478,6 +486,6 @@ html{
 
 @media screen and (max-width: 900px) {
   #d
-     {margin-top: -10vw !important;} 
+     {margin-top: -0vw !important;} 
     
 }
