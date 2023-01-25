@@ -27,10 +27,10 @@
     .get-started-btn {
         color: rgb(15, 1, 1);
         border-radius: 4px;
-        padding: 7px 30px 8px 25px;
+        padding: 0px 30px 9px 25px;
         white-space: nowrap;
         transition: 0.3s;
-        font-size: 24px;
+        font-size: 21px;
         display: inline-block;
         border: 2px solid #ffc451;
         background: #ffbb38;
@@ -41,6 +41,9 @@
         margin-left: 450px !important;
         /* margin-top: 0vw !important; */
         align-items: center !important;
+        padding-bottom: 0vw;
+        margin-top: 0vw ;
+        
         
         
       }
